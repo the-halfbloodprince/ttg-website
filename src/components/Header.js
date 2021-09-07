@@ -25,7 +25,7 @@ const Header = () => {
                         <p className="wow fadeInUp" data-wow-delay=".6s">A Patent a day keep the infringer away
                         </p>
                         <div className="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="about-us.html" class="btn ">Know More</a>
+                            <a href="about-us.html" class="btn " style={ {textDecoration:'none'} }>Know More</a>
                         </div>
                     </div>
                 </div>

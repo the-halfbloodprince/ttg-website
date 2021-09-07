@@ -44,6 +44,7 @@ button:focus,
     box-shadow: none !important
 }
 
+
 .form-check-input:checked {
     background-color: #3e80ff;
     border-color: #3e80ff

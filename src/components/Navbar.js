@@ -24,34 +24,34 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" className="navbar-nav ms-auto">
                                     <li className="nav-item">
-                                        <a href="index.html" class="active" aria-label="Toggle navigation">Home</a>
+                                        <a href="index.html" class="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="about-us.html" aria-label="Toggle navigation">About</a>
+                                            <a href="about-us.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="dd-menu collapsed"  data-bs-toggle="collapse"
                                             data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
-                                            aria-expanded="false" aria-label="Toggle navigation">Events</a>
+                                            aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">
-                                            <li className="nav-item"><a href="about-us.html">Annual Research Meet</a></li>
-                                            <li className="nav-item"><a href="signin.html">IPR Workshop</a></li>
-                                            <li className="nav-item"><a href="signup.html">TedXIITKharagpur</a></li>
-                                            <li className="nav-item"><a href="reset-password.html">vsakhba namsk</a></li>
-                                            <li className="nav-item"><a href="mail-success.html">jbjnknhv nbjkb</a></li>
-                                            <li className="nav-item"><a href="404.html">bjnmhu jhho</a></li>
+                                            <li className="nav-item"><a href="about-us.html" style={ {textDecoration:'none'}}>Annual Research Meet</a></li>
+                                            <li className="nav-item"><a href="signin.html" style={ {textDecoration:'none'}}>IPR Workshop</a></li>
+                                            <li className="nav-item"><a href="signup.html" style={ {textDecoration:'none'}}>TedXIITKharagpur</a></li>
+                                            <li className="nav-item"><a href="reset-password.html" style={ {textDecoration:'none'}}>vsakhba namsk</a></li>
+                                            <li className="nav-item"><a href="mail-success.html" style={ {textDecoration:'none'}}>jbjnknhv nbjkb</a></li>
+                                            <li className="nav-item"><a href="404.html" style={ {textDecoration:'none'}}>bjnmhu jhho</a></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="portfolio-masonry-photos.html" aria-label="Toggle navigation">Gallery</a>
+                                        <a href="portfolio-masonry-photos.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Gallery</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation">Contact</a>
+                                        <a href="contact.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Contact</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="signup.html" className="btn">Register</a>
+                                <a href="signup.html" className="btn" style={ {textDecoration:'none'}}>Register</a>
                             </div>
                         </nav>
 
