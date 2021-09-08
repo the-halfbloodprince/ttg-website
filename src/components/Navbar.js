@@ -1,8 +1,11 @@
 import './css/main.css';
 import ttg_logo from './images/logo/ttg_logo.png';
 
+
 const Navbar = () => {
     return ( 
+
+
        <div>
            <header className="header navbar-area">
            <div className="container">
@@ -30,7 +33,7 @@ const Navbar = () => {
                                             <a href="about-us.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="dd-menu collapsed"  data-bs-toggle="collapse"
+                                        <a href="/" className="dd-menu collapsed"  data-bs-toggle="collapse"
                                             data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">

@@ -5,8 +5,13 @@ import home2_bg from './images/hero/home2-bg.png';
 import h2_bit1 from './images/hero/h2-bit-l.png';
 import h2_bitm from './images/hero/h2-bit-m.png';
 import h2_bit_s from './images/hero/h2-bit-s.png';
+import WOW from 'wowjs';
 
 const Header = () => {
+
+    const wow = new WOW.WOW();
+    wow.init();
+
     return ( 
         <section className="hero-area">
         <img className="hero-shape" src={heroshape} alt="#" />
