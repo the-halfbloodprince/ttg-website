@@ -1,10 +1,13 @@
-import './css/main.css';
-import ttg_logo from './images/logo/ttg_logo.png';
+import {useEffect} from 'react'
+import './css/main.css'
+import stickiness from './js/stickiness'
 
 
 const Navbar = () => {
-    return ( 
 
+    useEffect(() => stickiness())
+
+    return ( 
 
        <div>
            <header className="header navbar-area">
@@ -15,7 +18,7 @@ const Navbar = () => {
 
                         <nav className="navbar navbar-expand-lg">
                             <a className="navbar-brand" href="index.html">
-                                <img src={ttg_logo} alt="Logo"/>
+                                <img src="/images/logo/ttg_log_white.png" className="logo_top"/>
                             </a>
                             <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -27,7 +30,7 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" className="navbar-nav ms-auto">
                                     <li className="nav-item">
-                                        <a href="index.html" class="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</a>
+                                        <a href="index.html" className="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</a>
                                     </li>
                                     <li className="nav-item">
                                             <a href="about-us.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</a>

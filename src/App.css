@@ -1,0 +1,8 @@
+.logo_top {
+    height: 7vh;
+    object-fit: contain; 
+}
+
+.event_cover {
+    object-fit: contain;
+}

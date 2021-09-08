@@ -30,12 +30,12 @@ const Header = () => {
                         <p className="wow fadeInUp" data-wow-delay=".6s">A Patent a day keep the infringer away
                         </p>
                         <div className="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="about-us.html" class="btn " style={ {textDecoration:'none'} }>Know More</a>
+                            <a href="about-us.html" className="btn " style={ {textDecoration:'none'} }>Know More</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-7 col-12">
-                    <div class="hero-image">
+                    <div className="hero-image">
                         <img className="main-image" src={home2_bg} alt="#" />
                         <img className="h2-move-1" src={h2_bit1} alt="#" />
                         <img className="h2-move-2" src={h2_bitm} alt="#" />

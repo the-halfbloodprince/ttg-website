@@ -30,7 +30,7 @@ const Events = () => {
                   <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
                       <div class="feature-box">
                           <div class="tumb">
-                              <img src={Arm} alt="" />
+                              <img src={Arm} className="event_cover" alt="" />
                           </div>
                           <h4 class="text-title">Annual Research Meet</h4>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsa a consequuntur
@@ -41,7 +41,7 @@ const Events = () => {
                   <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
                       <div class="feature-box">
                           <div class="tumb">
-                              <img src={Ted} alt="" />
+                              <img src={Ted} className="event_cover" alt="" />
                           </div>
                           <h4 class="text-title">TedXIITKharagpur</h4>
                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ipsum quae nostrum architecto
@@ -52,7 +52,7 @@ const Events = () => {
                   <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".6s">
                       <div class="feature-box">
                           <div class="tumb">
-                              <img src={Ipr} alt="" />
+                              <img src={Ipr} className="event_cover" alt="" />
                           </div>
                           <h4 class="text-title">IPR Workshop</h4>
                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime error reprehenderit pariatur
