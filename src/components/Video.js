@@ -2,14 +2,24 @@ import './css/main.css';
 import Shape1 from './images/video/shape1.svg';
 import Shape2 from './images/video/shape2.svg';
 import WOW from 'wowjs';
-import { SRLWrapper } from "simple-react-lightbox";
-
+import GLightbox from 'glightbox';
+import './css/gilghtbox.min.css';
+import { useEffect } from "react";
 
 
 const Video = () => {
 
     const wow = new WOW.WOW();
     wow.init();
+
+    useEffect(() => GLightbox())
+    const glightbox = GLightbox({
+        'href': 'https://www.youtu.be/1uX6iXysFJo',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoplayVideos': true,
+    });
 
     return ( 
         <section className="intro-video-area section">
@@ -28,14 +38,12 @@ const Video = () => {
                                     alias. Hic, quaerat eius aliquam ipsam asperiores, explicabo sit veritatis quis quae
                                     ullam porro quo.</p>
                             </div>
-                            <SRLWrapper>
                             <div className="intro-video-play">
                                 <div className="play-thumb wow zoomIn" data-wow-delay=".2s">
                                     <a href="https://www.youtu.be/1uX6iXysFJo" className="glightbox video"><i
                                             className="fa fa-play"></i></a>
                                 </div>
                             </div>
-                            </SRLWrapper>
                         </div>
                     </div>
                 </div>
@@ -43,6 +51,8 @@ const Video = () => {
         </div>
     </section>
      );
+
 }
+
  
 export default Video;
