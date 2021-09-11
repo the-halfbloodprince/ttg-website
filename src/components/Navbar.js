@@ -18,7 +18,7 @@ const Navbar = () => {
 
                         <nav className="navbar navbar-expand-lg">
                             <a className="navbar-brand" href="index.html">
-                                <img src="/images/logo/ttg_log_white.png" className="logo_top"/>
+                                <img src="/images/logo/ttg_log_white.png" className="logo_top" alt="logo"/>
                             </a>
                             <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -43,7 +43,7 @@ const Navbar = () => {
                                             <li className="nav-item"><a href="about-us.html" style={ {textDecoration:'none'}}>Annual Research Meet</a></li>
                                             <li className="nav-item"><a href="signin.html" style={ {textDecoration:'none'}}>IPR Workshop</a></li>
                                             <li className="nav-item"><a href="signup.html" style={ {textDecoration:'none'}}>TedXIITKharagpur</a></li>
-                                            <li className="nav-item"><a href="reset-password.html" style={ {textDecoration:'none'}}>vsakhba namsk</a></li>
+                                            <li className="nav-item"><a href="reset-password.html" style={ {textDecoration:'none'}}>TechTalks</a></li>
                                             <li className="nav-item"><a href="mail-success.html" style={ {textDecoration:'none'}}>jbjnknhv nbjkb</a></li>
                                             <li className="nav-item"><a href="404.html" style={ {textDecoration:'none'}}>bjnmhu jhho</a></li>
                                         </ul>
