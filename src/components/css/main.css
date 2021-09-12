@@ -2695,13 +2695,14 @@ only screen and (min-width:1400px) {
 }
 
 .start-process {
-    background-color: #f4f7fa
+    background-color: #fff;
+    padding: 0 15px;
 }
 
 .start-process.dark {
-    background-color: #24126a
+    background-color: #fff
 }
-
+/* 
 .start-process.dark .section-title h3 {
     color: #fff
 }
@@ -2712,19 +2713,19 @@ only screen and (min-width:1400px) {
 
 .start-process.dark .section-title p {
     color: #fff
-}
+} */
 
 .start-process.dark .single-process h3 {
-    color: #fff
+    color: #3e80ff
 }
 
 .start-process.dark .single-process p {
     color: #dadada
 }
 
-.start-process .section-title {
+/* .start-process .section-title {
     margin-bottom: 50px
-}
+} */
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .start-process .section-title {
@@ -2761,12 +2762,12 @@ only screen and (min-width:1400px) {
     border-radius: 50%;
     font-size: 18px;
     font-weight: 700;
-    background-color: #fff;
+    background-color: #3e80ff;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .089);
     box-shadow: 0 0 10px rgba(0, 0, 0, .089);
     position: absolute;
     left: 0;
-    color: #24126a;
+    color: #fff;
     top: 0;
     -webkit-transition: all .4s ease;
     transition: all .4s ease
@@ -2783,14 +2784,15 @@ only screen and (min-width:1400px) {
 }
 
 .start-process .single-process:hover .serial {
-    background-color: #3e80ff;
-    color: #fff
+    background-color: #fff;
+    color: #3e80ff
 }
 
 .start-process .single-process h3 {
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: #3e80ff
 }
 
 .intro-video-area {
@@ -2798,7 +2800,7 @@ only screen and (min-width:1400px) {
     position: relative;
     z-index: 9;
     padding-bottom: 0;
-    padding-top: 130px
+    padding-top: 130px;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -2863,7 +2865,8 @@ only screen and (min-width:1400px) {
     padding: 30px;
     border: 1px solid #eeeeee40;
     border-radius: 30px;
-    background: #ffffff24
+    background: #ffffff24;
+    width: auto;
 }
 
 @media(max-width:767px) {
