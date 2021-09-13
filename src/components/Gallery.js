@@ -1,5 +1,5 @@
-import Galleryhead from "./Galleryhead";
-import Navbarg from "./Navbarg";
+import Galleryhead from "./Galleryhead"
+import Navbarg from "./Navbarg"
 
 const Gallery = () => {
     return (

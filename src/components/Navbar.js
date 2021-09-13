@@ -1,7 +1,7 @@
 import {useEffect} from 'react'
 import './css/main.css'
 import stickiness from './js/stickiness'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -58,7 +58,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="signup.html" className="btn" style={ {textDecoration:'none'}}>Register</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
                             </div>
                         </nav>
 

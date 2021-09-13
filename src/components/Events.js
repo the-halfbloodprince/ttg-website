@@ -1,7 +1,7 @@
-import Arm from './images/features/student-guy-studying-internet-watching-online-lecture-computer-talking-math-tutor-through-video-call-cartoon-illustration_74855-14524.webp';
-import Ted from './images/features/tedx-logo-FE7A5DACA7-seeklogo.com.png';
-import Ipr from './images/features/intellectual-property-concept-with-hand-holding-lightbulb_23-2148695694.webp';
-import WOW from 'wowjs';
+import Arm from './images/features/Group 2.svg'
+import Ted from './images/features/Rectangle 1.svg'
+import Ipr from './images/features/bro.svg'
+import WOW from 'wowjs'
 
 
 
