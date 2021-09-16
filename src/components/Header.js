@@ -6,6 +6,7 @@ import h2_bit1 from './images/hero/h2-bit-l.png';
 import h2_bitm from './images/hero/h2-bit-m.png';
 import h2_bit_s from './images/hero/h2-bit-s.png';
 import WOW from 'wowjs';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -30,7 +31,7 @@ const Header = () => {
                         <p className="wow fadeInUp" data-wow-delay=".6s">A Patent a day keep the infringer away
                         </p>
                         <div className="button wow fadeInUp" data-wow-delay=".8s">
-                            <a href="about-us.html" className="btn " style={ {textDecoration:'none'} }>Know More</a>
+                            <Link to="/about" className="btn " style={ {textDecoration:'none'} }>Know More</Link>
                         </div>
                     </div>
                 </div>

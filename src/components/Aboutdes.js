@@ -24,7 +24,7 @@ const Aboutdes = () => {
                                     <p className="wow fadeInUp" data-wow-delay=".6s">Technology Transfer Group(TTG) is a students’ initiative under
                                         the aegis of Sponsored Research And Industrial Consultancy, IIT Kharagpur</p>
                                 </div>
-                                <div className="section start-process" style={{paddingTop:'0'}}>
+                                <div className="section start-process wow fadeInUp" data-wow-delay=".4s" style={{paddingTop:'0'}}>
                                     <div class="row">
                                         <div class="col-lg-4 col-md-4 col-12">
                                             <div class="single-process">

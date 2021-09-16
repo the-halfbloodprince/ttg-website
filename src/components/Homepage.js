@@ -5,6 +5,7 @@ import Navbar from "./Navbar"
 import Timeline from "./Timeline"
 import Testimonals from "./Testimonals"
 import Video from "./Video"
+import Footer from "./Footer"
 
 const Homepage = () => {
     return (
@@ -15,6 +16,7 @@ const Homepage = () => {
             <Video />
             <Timeline />
             <Faq />
+            <Footer />
         </div>
     );
 }

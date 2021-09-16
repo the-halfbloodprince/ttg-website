@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Galleryhead from "./Galleryhead"
 import Navbarg from "./Navbarg"
 
@@ -6,7 +7,7 @@ const Gallery = () => {
         <div>
             <Navbarg />
             <Galleryhead />
-          
+            <Footer />
         </div>
     );
 }

@@ -3,6 +3,7 @@ import Abouthead from "./Abouthead"
 import Sric from "./Sric"
 import Team from "./Team"
 import Navbara from "./Navbara"
+import Footer from "./Footer"
 
 const About = () => {
     return ( 
@@ -12,6 +13,7 @@ const About = () => {
             <Sric />
             <Aboutdes />
             <Team />
+            <Footer />
         </div>
      );
 }
