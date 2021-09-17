@@ -27,23 +27,23 @@ const Footer = () => {
                                                 Follow Us On :
                                             </div>
                                             <div className="foot-social-icons">
-                                                <a href=""><li className="fa fa-facebook"></li></a>
-                                                <a href=""><li className="fa fa-instagram"></li></a>
-                                                <a href=""><li className="fa fa-linkedin"></li></a>
+                                                <a href=""><li className="ta-fb fa fa-facebook"></li></a>
+                                                <a href=""><li className="ta-ma fa fa-envelope"></li></a>
+                                                <a href=""><li className="ta-li fa fa-linkedin"></li></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="foot-center-i">
-                                        <div><Link className="foot-center-i-page" to="/">Home</Link></div>
-                                        <div><Link className="foot-center-i-page" to="/about">About</Link></div>
-                                        <div><Link className="foot-center-i-page" to="/events">Events</Link></div>
-                                        <div><Link className="foot-center-i-page" to="/gallery">Gallery</Link></div>
+                                    <Link className="foot-center-i-page" to="/">Home</Link>
+                                    <Link className="foot-center-i-page" to="/about">About</Link>
+                                    <Link className="foot-center-i-page" to="/events">Events</Link>
+                                    <Link className="foot-center-i-page" to="/gallery">Gallery</Link>
                                     </div>
                                     <div className="foot-center-ii">
                                         <div className="foot-center-ii-h">Links</div>
-                                        <div><a href="/">SRIC</a></div>
-                                        <div><a href="/">TED</a></div>
-                                        <div><a href="/">TEDx</a></div>
+                                    <a href="/" className="foot-center-ii-page">SRIC</a>
+                                    <a href="/" className="foot-center-ii-page">TED</a>
+                                    <a href="/" className="foot-center-ii-page">TEDx</a>
                                     </div>
                                     <div className="footer-right">
                                         <Map />

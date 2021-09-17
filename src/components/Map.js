@@ -2,7 +2,7 @@ import './css/main.css'
 
 const Map = () => {
     return ( <div class="map-section">
-    <div className="container">
+    <div className="container" style={{padding:"2px"}}>
         <div className="row">
             <div className="col-12">
                 <div className="mapouter">

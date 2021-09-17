@@ -35,7 +35,7 @@ const Team = () => {
                             <h4>Manish Kumar Das
                                 <span>Web</span>
                             </h4>
-                            <ul className="social">
+                            <ul className="social" style={{textAlign:"center"}}>
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
@@ -78,7 +78,7 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i clasName="fa fa-twitter"></i></a></li>
+                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -181,12 +181,11 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twittel"></i></a></li>
+                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

@@ -2866,7 +2866,6 @@ only screen and (min-width:1400px) {
     border: 1px solid #eeeeee40;
     border-radius: 30px;
     background: #ffffff24;
-    width: auto;
 }
 
 @media(max-width:767px) {
@@ -2878,7 +2877,7 @@ only screen and (min-width:1400px) {
 
 .intro-video-area .inner-content {
     background-color: #fff;
-    padding: 100px 0;
+    padding: 40px 0;
     height: 100%;
     border-radius: 15px;
     -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .09);
@@ -2889,7 +2888,7 @@ only screen and (min-width:1400px) {
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .intro-video-area .inner-content {
-        padding: 50px 0;
+        padding: 40px 0;
         padding-bottom: 80px
     }
 }
@@ -4459,11 +4458,12 @@ only screen and (min-width:1400px) {
 
 .team .single-team .content .social li {
     display: inline-block;
-    margin-right: 20px
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .team .single-team .content .social li a {
-    font-size: 15px;
+    font-size: 20px;
     color: #24126a
 }
 
@@ -4865,13 +4865,13 @@ only screen and (min-width:1400px) {
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .map-section {
-        padding-bottom: 70px
+        padding-bottom: 10px
     }
 }
 
 @media(max-width:767px) {
     .map-section {
-        padding-bottom: 60px
+        padding-bottom: 10px
     }
 }
 
@@ -5542,13 +5542,38 @@ only screen and (min-width:1400px) {
 .foot-social-icons a {
     font-size: 20px;
     margin: 2px;
+    padding-top: 10px;
+}
+.foot-social-icons a:hover {
+    opacity: 0.7;
 }
 
-.foot-social-icons a li {
+.foot-social-icons a .ta-li {
     background-color: #3e80ff ;
     color: #fff;
-    padding: 10px;
+    padding: 16px 18.25px;
     border-radius: 50%;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.foot-social-icons a .ta-ma {
+    background-color: #3e80ff ;
+    color: #fff;
+    padding: 16px 17.25px;
+    border-radius: 50%;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.foot-social-icons a .ta-fb {
+    background-color: #3e80ff ;
+    color: #fff;
+    padding: 16px 20.25px;
+    border-radius: 50%;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .foot-center-i {
@@ -5559,6 +5584,7 @@ only screen and (min-width:1400px) {
     font-size: 25px;
     text-decoration: none;
     color: #4A4A4A;
+    display: block;
 }
 
 .foot-center-ii {
@@ -5570,10 +5596,11 @@ only screen and (min-width:1400px) {
     font-size: 25px;
     color: #24126A;
 }
-.foot-center-ii a {
+.foot-center-ii-page {
     font-size: 22px;
     text-decoration: none;
     color: #4A4A4A;
+    display: block;
 }
 
 .footer-right {
@@ -5591,9 +5618,36 @@ only screen and (min-width:1400px) {
     color: #3e80ff;
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1200px) {
     .footer-cont {
+      padding: auto;
+      display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    .foot-left{
+        padding: 10px;
+        text-align: center;
+    }
+    .foot-center-i{
+        padding: 10px;
+    }
+    .foot-center-i-page{
+        display: inline;
+        padding: 5px;
+    }
+    .foot-center-ii{
+        padding: 10px;
+    }
+    .foot-center-ii-page{
+        padding: 10px;
+        display: inline;
+    }
+    .foot-center-ii-h{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footer-right{
+        width: 90%;
     }
   }

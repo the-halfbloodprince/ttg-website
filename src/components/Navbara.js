@@ -45,7 +45,7 @@ const Navbara = () => {
                                             <li className="nav-item"><a href="signin.html" style={ {textDecoration:'none'}}>IPR Workshop</a></li>
                                             <li className="nav-item"><a href="signup.html" style={ {textDecoration:'none'}}>TedXIITKharagpur</a></li>
                                             <li className="nav-item"><a href="reset-password.html" style={ {textDecoration:'none'}}>TechTalks</a></li>
-                                            <li className="nav-item"><a href="mail-success.html" style={ {textDecoration:'none'}}>jbjnknhv nbjkb</a></li>
+                                            <li className="nav-item"><a href="mail-success.html" style={ {textDecoration:'none'}}>INDAC</a></li>
                                             <li className="nav-item"><a href="404.html" style={ {textDecoration:'none'}}>bjnmhu jhho</a></li>
                                         </ul>
                                     </li>
