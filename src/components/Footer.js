@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './css/main.css'
-import Shape1 from './images/video/shape1.svg';
 import Shape2 from './images/video/shape2.svg';
 import Map from './Map';
 
@@ -12,7 +11,6 @@ const Footer = () => {
                     <div className="col-12">
                         <div className="inner-content-head" style={{marginBottom:"10px", paddingBottom:"15px"}}>
                             <div className="inner-content" style={{marginBottom:"10px", paddingBottom:"15px"}}>
-                                <img className="shape1" src={Shape1} alt="#" />
                                 <img className="shape2" src={Shape2} alt="#" />
                                 <div className="footer-cont">
                                     <div className="foot-left">
