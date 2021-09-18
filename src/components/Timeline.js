@@ -49,7 +49,7 @@ const Timeline = () => {
                         </div>
                     </div>
                 </div>
-                <div className="top-row">
+                <div className="top-row wow fadeIn" data-wow-delay=".4s">
                     <div className="">
                         <TinySlider>
                             <div className="row road-map-slider">
