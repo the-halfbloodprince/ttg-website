@@ -24,8 +24,8 @@ const Header = () => {
             <div className="row align-items-center">
                 <div className="col-lg-5 col-md-12 col-12">
                     <div className="hero-content">
-                        <h4 className="wow fadeInUp" data-wow-delay=".2s" >SRIC IIT Kharagpur</h4>
-                        <h1 className="wow fadeInUp" data-wow-delay=".4s"  style={{fontFamily:'Raleway'}}>Technology
+                        <h4 data-aos="zoom-in-up" data-aos-delay="100">SRIC IIT Kharagpur</h4>
+                        <h1  style={{fontFamily:'Raleway'}} data-aos="zoom-in-up" data-aos-delay="200">Technology
                             Transfer <br />Group 
                             <span>
                                 <img className="text-shape" src={textshape} alt="#" />
