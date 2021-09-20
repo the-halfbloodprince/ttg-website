@@ -1,7 +1,6 @@
 import './css/main.css';
 import Shape1 from './images/video/shape1.svg';
 import Shape2 from './images/video/shape2.svg';
-import WOW from 'wowjs';
 import GLightbox from 'glightbox';
 import './css/gilghtbox.min.css';
 import { useEffect } from "react";
