@@ -1,4 +1,3 @@
-import WOW from 'wowjs';
 import './css/main.css';
 import 'bootstrap';
 import "aos/dist/aos.css";
