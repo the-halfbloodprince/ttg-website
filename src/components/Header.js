@@ -5,14 +5,18 @@ import home2_bg from './images/hero/home2-bg.png';
 import h2_bit1 from './images/hero/h2-bit-l.png';
 import h2_bitm from './images/hero/h2-bit-m.png';
 import h2_bit_s from './images/hero/h2-bit-s.png';
-import WOW from 'wowjs';
 import { Link } from 'react-router-dom';
+import Aos from "aos"
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+
 
 const Header = () => {
 
-    const wow = new WOW.WOW();
-    wow.init();
-
+    useEffect(()=>{
+        Aos.init({duration:1500 });
+        },[]);
+    
     return ( 
         <section className="hero-area">
         <img className="hero-shape" src={heroshape} alt="#" />
@@ -20,17 +24,17 @@ const Header = () => {
             <div className="row align-items-center">
                 <div className="col-lg-5 col-md-12 col-12">
                     <div className="hero-content">
-                        <h4 className="wow fadeInUp" data-wow-delay=".2s" >SRIC IIT Kharagpur</h4>
-                        <h1 className="wow fadeInUp" data-wow-delay=".4s"  style={{fontFamily:'Raleway'}}>Technology
+                        <h4 data-aos="zoom-in-up" data-aos-delay="100">SRIC IIT Kharagpur</h4>
+                        <h1  data-aos="zoom-in-up" data-aos-delay="200" style={{fontFamily:'Raleway'}}>Technology
                             Transfer <br />Group 
                             <span>
                                 <img className="text-shape" src={textshape} alt="#" />
 
                             </span>
                         </h1>
-                        <p className="wow fadeInUp" data-wow-delay=".6s">A Patent a day keep the infringer away
+                        <p data-aos="zoom-in-up" data-aos-delay="300">A Patent a day keep the infringer away
                         </p>
-                        <div className="button wow fadeInUp" data-wow-delay=".8s">
+                        <div className="button " data-aos="zoom-in-up" data-aos-delay="200">
                             <Link to="/about" className="btn " style={ {textDecoration:'none'} }>Know More</Link>
                         </div>
                     </div>

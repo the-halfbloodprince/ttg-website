@@ -2,12 +2,15 @@ import WOW from 'wowjs';
 import './css/main.css';
 import 'bootstrap';
 
-
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+import Aos from "aos"
 const Faq = () => {
 
 
-    const wow = new WOW.WOW();
-    wow.init();
+  useEffect(()=>{
+        Aos.init({duration:1500});
+        },[]);
 
 
     return ( 
@@ -16,9 +19,9 @@ const Faq = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="section-title">
-                        <h3 className="wow zoomIn" data-wow-delay=".2s">Faq</h3>
-                        <h2 className="wow fadeInUp" data-wow-delay=".4s">frequently asked questions</h2>
-                        <p className="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        <h3 data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="180">Faq</h3>
+                        <h2 data-aos="zoom-in-up" data-aos-delay="200" data-aos-offset="180">frequently asked questions</h2>
+                        <p data-aos="zoom-in-up" data-aos-delay="300" data-aos-offset="180">Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Dolorem atque et beatae soluta, amet ratione exercitationem. Numquam omnis maiores
                             nisi earum saepe ipsum ducimus, reprehenderit corrupti, architecto cumque odio a?</p>
                     </div>
@@ -27,10 +30,10 @@ const Faq = () => {
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="accordion" id="accordionExample">
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading1">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" >
                                     <span className="title">What is IPR?</span><i className="fa fa-plus"></i>
                                 </button>
                             </h2>
@@ -45,7 +48,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading2">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
@@ -64,7 +67,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading3">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
@@ -84,7 +87,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12 xs-margin">
                     <div className="accordion" id="accordionExample2">
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading11">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
@@ -102,7 +105,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading22">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
@@ -121,7 +124,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item">
+                        <div className="accordion-item" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading33">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse33" aria-expanded="false" aria-controls="collapse33">
