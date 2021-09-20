@@ -52,7 +52,7 @@ const Timeline = () => {
                         </div>
                     </div>
                 </div>
-                <div className="top-row" data-aos="zoom-in-up" data-aos-offset="180" data-aos-delay="100">
+                <div className="top-row wow fadeIn" data-wow-delay=".4s">
                     <div className="">
                         <TinySlider>
                             <div className="row road-map-slider">

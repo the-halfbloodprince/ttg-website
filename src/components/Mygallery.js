@@ -47,7 +47,7 @@ function Mygallery() {
 
 const TagButton = ({ name, handleSetTag, tagActive }) => {
 	return (
-		<button className={`tag ${tagActive ? 'active' : null}`} onClick={() => handleSetTag(name)}>
+		<button className={`tag ${tagActive ? 'gactive' : null}`} onClick={() => handleSetTag(name)}>
 			{name.toUpperCase()}
 		</button>
 	);

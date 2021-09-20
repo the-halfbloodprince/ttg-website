@@ -1,23 +1,21 @@
 import { Link } from 'react-router-dom';
 import './css/main.css'
-import Shape1 from './images/video/shape1.svg';
 import Shape2 from './images/video/shape2.svg';
 import Map from './Map';
-import Aos from "aos"
-import { useEffect } from "react";
-import "aos/dist/aos.css";
+import WOW from 'wowjs'
+
 const Footer = () => {
-    useEffect(()=>{
-        Aos.init({duration:1500 });
-        },[]);
+
+    const wow = new WOW.WOW();
+    wow.init();
+
     return (
         <section className="intro-video-area section">
             <div className="container" data-aos="zoom-in-up" data-aos-offset="140">
                 <div className="row">
                     <div className="col-12">
-                        <div className="inner-content-head" style={{marginBottom:"10px", paddingBottom:"15px"}}>
-                            <div className="inner-content" style={{marginBottom:"10px", paddingBottom:"15px"}}>
-                                <img className="shape1" src={Shape1} alt="#" />
+                        <div className="inner-content-head wow fadeInUp" data-wow-delay=".4s" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
+                            <div className="inner-content" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
                                 <img className="shape2" src={Shape2} alt="#" />
                                 <div className="footer-cont">
                                     <div className="foot-left">
@@ -32,23 +30,23 @@ const Footer = () => {
                                                 Follow Us On :
                                             </div>
                                             <div className="foot-social-icons">
-                                                <a href=""><li className="ta-fb fa fa-facebook"></li></a>
-                                                <a href=""><li className="ta-ma fa fa-envelope"></li></a>
-                                                <a href=""><li className="ta-li fa fa-linkedin"></li></a>
+                                                <a href="https://www.facebook.com/TTG.SRIC" target="_blank"><li className="ta-fb fa fa-facebook"></li></a>
+                                                <a href="ttgiitkharagpur@gmail.com" target="_blank"><li className="ta-ma fa fa-envelope"></li></a>
+                                                <a href="https://www.linkedin.com/company/technology-transfer-group" target="_blank"><li className="ta-li fa fa-linkedin"></li></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="foot-center-i">
-                                    <Link className="foot-center-i-page" to="/">Home</Link>
-                                    <Link className="foot-center-i-page" to="/about">About</Link>
-                                    <Link className="foot-center-i-page" to="/events">Events</Link>
-                                    <Link className="foot-center-i-page" to="/gallery">Gallery</Link>
+                                        <Link className="foot-center-i-page" to="/">Home</Link>
+                                        <Link className="foot-center-i-page" to="/about">About</Link>
+                                        <Link className="foot-center-i-page" to="/events">Events</Link>
+                                        <Link className="foot-center-i-page" to="/gallery">Gallery</Link>
                                     </div>
                                     <div className="foot-center-ii">
                                         <div className="foot-center-ii-h">Links</div>
-                                    <a href="/" className="foot-center-ii-page">SRIC</a>
-                                    <a href="/" className="foot-center-ii-page">TED</a>
-                                    <a href="/" className="foot-center-ii-page">TEDx</a>
+                                        <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" className="foot-center-ii-page">SRIC</a>
+                                        <a href="https://www.ted.com/" target="_blank" className="foot-center-ii-page">TED</a>
+                                        <a href="http://tedxiitkharagpur.com/" target="_blank" className="foot-center-ii-page">TEDx</a>
                                     </div>
                                     <div className="footer-right">
                                         <Map />

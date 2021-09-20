@@ -24,7 +24,7 @@ const Events = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="zoom-in-up" data-aos-delay="100"  data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 wow bounceInLeft" data-wow-delay=".2s">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Arm} className="event_cover" alt="" />
@@ -33,7 +33,7 @@ const Events = () => {
                             <p>Technology Transfer Group (TTG) act as a link between the industry and the academia to facilitate transfer of industry ready technologies and presenting IIT Kharagpur as a research consultant.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".2s">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Ted} className="event_cover" alt="" />
@@ -42,7 +42,7 @@ const Events = () => {
                             <p>Our event is called TEDxIITKharagpur, where x = independently organized TED event. At our TEDxIITKharagpur event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 wow bounceInRight" data-wow-delay=".2s">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Ipr} className="event_cover" alt="" />

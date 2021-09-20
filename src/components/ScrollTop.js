@@ -2,7 +2,8 @@ import './css/main.css'
 import './js/scrollToTop'
 
 const ScrollTop = () => {
-    return ( 
+
+    return (
         <a href="/" className="scroll-top" style={{textDecoration:'none'}} >
         <i className="fa fa-chevron-up"></i>
     </a>

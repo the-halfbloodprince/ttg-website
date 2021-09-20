@@ -27,8 +27,7 @@ const Team = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="150" >
-
+                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s">
                     <div className="single-team">
                         <div className="team-image">
                             <img src={team4} alt="team" />
@@ -40,7 +39,6 @@ const Team = () => {
                             <ul className="social" style={{textAlign:"center"}}>
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -60,7 +58,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -80,7 +77,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -100,7 +96,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -123,7 +118,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -143,7 +137,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -163,7 +156,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
@@ -183,7 +175,6 @@ const Team = () => {
                             <ul className="social">
                                 <li><a href="javascript:void(0)"><i className="fa fa-facebook"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="javascript:void(0)"><i className="fa fa-twitter"></i></a></li>
                                 <li><a href="javascript:void(0)"><i className="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>

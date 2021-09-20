@@ -58,7 +58,7 @@ const Navbar = () => {
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
                             </div>
                         </nav>
 

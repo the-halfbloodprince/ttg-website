@@ -17,7 +17,7 @@ const Sric = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-12">
-                    <div className="image " data-aos="zoom-in-up" data-aos-delay="200">
+                    <div className="img wow fadeInUp" data-wow-delay=".4s">
                         <img src={sricimg} alt="sric" />
                     </div>
                 </div>

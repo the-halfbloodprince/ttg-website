@@ -4,7 +4,7 @@
 .tags {
 	text-align: center;
 	padding: 20px 0px;
-	background-color: blue;
+	background-color: #3e80ff;
 }
 
 .tag {
@@ -14,10 +14,11 @@
 	margin: 0px 10px;
 	background-color: transparent;
 	cursor: pointer;
+	font-family: 'Open Sans';
 	
 }
 
-.active {
+.gactive {
 	font-weight: bold;
 	border-bottom: 1px solid #eee;
 }
@@ -29,13 +30,13 @@
 }
 
 .image-card {
-	height:200px;
-	width:250px;
+	height:300px;
+	width:360px;
 	padding: 5px;
 	margin: 5px;
 	border: 1px solid #ddd;
 	border-radius: 2px;
-	box-shadow: 2px 10px 10px black;
+	box-shadow: 2px 10px 10px rgb(48, 45, 45);
 	overflow: hidden;
 	display:inline-block;
 	
@@ -43,8 +44,8 @@
 
 
 .image1 {
-	height:200px;
-	width:250px;
+	height: 300px;
+	width:360px;
 	transition: transform 1s;
 	
 }
