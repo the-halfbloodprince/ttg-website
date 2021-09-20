@@ -1,7 +1,6 @@
 import Arm from './images/features/Group 2.svg'
 import Ted from './images/features/Rectangle 1.svg'
 import Ipr from './images/features/bro.svg'
-
 import "aos/dist/aos.css";
 import {useEffect} from "react";
 import Aos from "aos"
@@ -24,7 +23,7 @@ const Events = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="zoom-in-up" data-aos-delay="100"  data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="fade-right" data-aos-delay="100"  data-aos-offset="140">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Arm} className="event_cover" alt="" />
@@ -33,7 +32,7 @@ const Events = () => {
                             <p>Technology Transfer Group (TTG) act as a link between the industry and the academia to facilitate transfer of industry ready technologies and presenting IIT Kharagpur as a research consultant.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 " data-aos="fade-up" data-aos-delay="100" data-aos-offset="140">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Ted} className="event_cover" alt="" />
@@ -42,7 +41,7 @@ const Events = () => {
                             <p>Our event is called TEDxIITKharagpur, where x = independently organized TED event. At our TEDxIITKharagpur event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="140">
+                    <div className="col-lg-4 col-md-6 col-12 "  data-aos="fade-left" data-aos-delay="100" data-aos-offset="140">
                         <div className="feature-box">
                             <div className="tumb">
                                 <img src={Ipr} className="event_cover" alt="" />

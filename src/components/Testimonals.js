@@ -1,4 +1,3 @@
-import WOW from 'wowjs';
 import './css/main.css';
 import TinySlider from './TinySlider';
 import Aos from "aos"
