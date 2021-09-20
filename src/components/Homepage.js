@@ -6,12 +6,15 @@ import Timeline from "./Timeline"
 import Video from "./Video"
 import Footer from "./Footer"
 
+
+
 const Homepage = () => {
+    
     return (
         <div>
             <Navbar />
             <Header />
-            <Events />
+            <Events  />
             <Video />
             <Timeline />
             <Faq />

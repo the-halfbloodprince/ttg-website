@@ -4,11 +4,13 @@ import team1 from './images/team/team1.jpg'
 import team2 from './images/team/team2.jpg'
 import team3 from './images/team/team3.jpg'
 import team4 from './images/team/team4.jpg'
-
+import Aos from "aos"
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 const Team = () => {
-
-    const wow = new WOW.WOW();
-    wow.init();
+    useEffect(()=>{
+        Aos.init({duration:1500 });
+        },[]);
 
     return ( 
         <section className="team section">
@@ -16,16 +18,16 @@ const Team = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="section-title">
-                        <h3 className="wow zoomIn" data-wow-delay=".2s">Heads</h3>
-                        <h2 className="wow fadeInUp" data-wow-delay=".4s">Meet Our Team</h2>
-                        <p className="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        <h3 data-aos="zoom-in-up" data-aos-delay="100" >Heads</h3>
+                        <h2 data-aos="zoom-in-up" data-aos-delay="200" >Meet Our Team</h2>
+                        <p data-aos="zoom-in-up" data-aos-delay="300" >Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Amet quae exercitationem in doloribus repellendus eius odio maxime quis totam magni
                             debitis pariatur quod, expedita illo voluptas et enim qui officiis.</p>
                     </div>
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="150" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -45,7 +47,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".5s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="300" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -65,7 +67,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".7s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="450" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -85,7 +87,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".9s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="600" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -108,7 +110,7 @@ const Team = () => {
             </div>
 
             <div className="row">
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".3s">
+                <div className="col-lg-3 col-md-6 col-12 w" data-aos="zoom-in-up" data-aos-delay="150" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -128,7 +130,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".5s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="300" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -148,7 +150,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".7s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="450" >
 
                     <div className="single-team">
                         <div className="team-image">
@@ -168,7 +170,7 @@ const Team = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay=".9s">
+                <div className="col-lg-3 col-md-6 col-12 " data-aos="zoom-in-up" data-aos-delay="600" >
 
                     <div className="single-team">
                         <div className="team-image">

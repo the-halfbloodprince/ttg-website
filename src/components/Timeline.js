@@ -1,12 +1,15 @@
 import WOW from 'wowjs';
 import './css/main.css';
 import TinySlider from './TinySlider';
-
+import Aos from "aos"
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Timeline = () => {
-
-    const wow = new WOW.WOW();
-    wow.init();
+    useEffect(()=>{
+        Aos.init({duration:1500 });
+        },[]);
+    
 
     // tns({
     //     container: '.road-map-slider',
@@ -42,14 +45,14 @@ const Timeline = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2 className="wow fadeInUp" data-wow-delay=".4s">Our Timeline</h2>
-                            <p className="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <h2 data-aos="zoom-in-up"  data-aos-offset="180" data-aos-delay="100">Our Timeline</h2>
+                            <p data-aos="zoom-in-up"  data-aos-offset="180" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Magni, commodi ducimus? Repudiandae neque nam placeat quo facere quisquam, numquam
                                 quia totam, beatae obcaecati tempora aut enim odio earum expedita sint.</p>
                         </div>
                     </div>
                 </div>
-                <div className="top-row">
+                <div className="top-row" data-aos="zoom-in-up" data-aos-offset="180" data-aos-delay="100">
                     <div className="">
                         <TinySlider>
                             <div className="row road-map-slider">

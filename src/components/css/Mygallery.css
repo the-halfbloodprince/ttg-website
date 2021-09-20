@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+	display:none;
+}
 .tags {
 	text-align: center;
 	padding: 20px 0px;

@@ -1,24 +1,26 @@
 import WOW from 'wowjs';
 import './css/main.css';
 import TinySlider from './TinySlider';
+import Aos from "aos"
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 
 const Testimonals = () => {
 
 
-    const wow = new WOW.WOW();
-    wow.init();
-
-
-
+   useEffect(()=>{
+        Aos.init({duration:1500 });
+        },[]);
+        
     return (
         <section className="testimonials style2 section">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h3 className="wow zoomIn" data-wow-delay=".2s">What Proffesors Say</h3>
-                            <h2 className="wow fadeInUp" data-wow-delay=".4s">Our Testimonials</h2>
-                            <p className="wow fadeInUp" data-wow-delay=".6s">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            <h3 data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="180">What Proffesors Say</h3>
+                            <h2 data-aos="zoom-in-up" data-aos-delay="200" data-aos-offset="180">Our Testimonials</h2>
+                            <p data-aos="zoom-im-up" data-aos-delay="300" data-aos-offset="180">Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Dolorem atque et beatae soluta, amet ratione exercitationem. Numquam omnis maiores
                                 nisi earum saepe ipsum ducimus, reprehenderit corrupti, architecto cumque odio a?</p>
                         </div>
