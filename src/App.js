@@ -6,6 +6,7 @@ import About from './components/About';
 import ScrollTop from './components/ScrollTop';
 import Gallery from './components/Gallery';
 import {useState,useEffect} from "react"
+import Preloader from './components/Preloader';
 
 
 
@@ -16,13 +17,13 @@ function App() {
     setTimeout(()=>{
        setloader(false);
        setcontent(true);
-    },2000);
+    },4000);
 
   },[]);
 
   return (
     <div>
-    { loader && <h1 style={{fontWeight:'bold'}}>Loading...</h1>}
+    { loader && <Preloader />}
     {
       content && <Router>
       <Switch>
