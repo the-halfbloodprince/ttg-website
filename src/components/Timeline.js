@@ -1,4 +1,3 @@
-import WOW from 'wowjs';
 import './css/main.css';
 import TinySlider from './TinySlider';
 import Aos from "aos"
@@ -45,14 +44,14 @@ const Timeline = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="section-title">
-                            <h2 data-aos="zoom-in-up"  data-aos-offset="180" data-aos-delay="100">Our Timeline</h2>
-                            <p data-aos="zoom-in-up"  data-aos-offset="180" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <h2 data-aos="fade-up"  data-aos-offset="180" data-aos-delay="100">Our Timeline</h2>
+                            <p data-aos="fade-up"  data-aos-offset="180" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Magni, commodi ducimus? Repudiandae neque nam placeat quo facere quisquam, numquam
                                 quia totam, beatae obcaecati tempora aut enim odio earum expedita sint.</p>
                         </div>
                     </div>
                 </div>
-                <div className="top-row" data-aos="zoom-in-up" data-aos-offset="180" data-aos-delay="100">
+                <div className="top-row" data-aos="fade-up" data-aos-offset="180" data-aos-delay="100">
                     <div className="">
                         <TinySlider>
                             <div className="row road-map-slider">

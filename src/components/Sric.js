@@ -1,4 +1,3 @@
-import WOW from 'wowjs'
 import './css/main.css'
 import sricimg from './images/about/about-image.png'
 import Aos from "aos"
@@ -6,8 +5,6 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 const Sric = () => {
 
-    const wow = new WOW.WOW();
-    wow.init();
     useEffect(()=>{
         Aos.init({duration:1500 });
         },[]);
@@ -17,7 +14,7 @@ const Sric = () => {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 col-12">
-                    <div className="image " data-aos="zoom-in-up" data-aos-delay="200">
+                    <div className="img " data-aos="zoom-in-up" data-aos-delay="200">
                         <img src={sricimg} alt="sric" />
                     </div>
                 </div>

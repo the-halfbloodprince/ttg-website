@@ -1,5 +1,4 @@
 import './css/main.css'
-import WOW from 'wowjs'
 import team1 from './images/team/team1.jpg'
 import team2 from './images/team/team2.jpg'
 import team3 from './images/team/team3.jpg'
@@ -7,10 +6,15 @@ import team4 from './images/team/team4.jpg'
 import Aos from "aos"
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+
+
 const Team = () => {
+
+
     useEffect(()=>{
         Aos.init({duration:1500 });
         },[]);
+
 
     return ( 
         <section className="team section">

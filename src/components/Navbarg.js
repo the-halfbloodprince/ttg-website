@@ -58,7 +58,7 @@ const Navbarg = () => {
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="signup.html" className="btn" style={ {textDecoration:'none'}}>Register</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
                             </div>
                         </nav>
 

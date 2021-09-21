@@ -3,6 +3,7 @@ import './css/Mygallery.css';
 import images from './data';
 import { SRLWrapper } from 'simple-react-lightbox';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import Aos from 'aos'
 
 
 
@@ -16,6 +17,11 @@ function Mygallery() {
 		},
 		[tag]
 	);
+
+
+	useEffect(()=>{
+        Aos.init({duration:1500 });
+        },[]);
     
 			
 		
@@ -29,7 +35,7 @@ function Mygallery() {
 				<TagButton name="MEET" tagActive={tag === 'MEET' ? true : false} handleSetTag={setTag} />
 			</div>
 			<SRLWrapper  >
-				<div className="container">
+				<div className="container" data-aos="zoom-in-up" data-aos-delay="100">
 					{filteredImages.map(image => (
 						<div key={image.id} className="image-card">
 							<a className ="aimage"href={`/images/${image.imageName}`}>

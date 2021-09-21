@@ -1,17 +1,23 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import './css/main.css'
-import Shape2 from './images/video/shape2.svg';
-import Map from './Map';
+import Shape2 from './images/video/shape2.svg'
+import Map from './Map'
 import Aos from "aos"
-import { useEffect } from "react";
-import "aos/dist/aos.css";
+import { useEffect } from "react"
+import "aos/dist/aos.css"
+
+
 const Footer = () => {
+
+
     useEffect(()=>{
         Aos.init({duration:1500 });
         },[]);
+
+        
     return (
         <section className="intro-video-area section">
-            <div className="container" data-aos="zoom-in-up" data-aos-offset="140">
+            <div className="container" data-aos="fade-up" data-aos-offset="140">
                 <div className="row">
                     <div className="col-12">
                         <div className="inner-content-head " data-aos="zoom-in-up" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
