@@ -9,16 +9,18 @@ import Footer from "./Footer"
 
 
 const Homepage = () => {
-    
+
     return (
-        <div  className="Appreveal">
+        <div>
             <Navbar />
-            <Header />
-            <Events  />
-            <Video />
-            <Timeline />
-            <Faq />
-            <Footer />
+            <div className="Appreveal">
+                <Header />
+                <Events />
+                <Video />
+                <Timeline />
+                <Faq />
+                <Footer />
+            </div>
         </div>
     );
 }
