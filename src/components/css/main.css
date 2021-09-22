@@ -11,6 +11,23 @@ html {
     color: white;
 }
 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: -10;
+    background-color: #BF307F;
+  }
+
+  .Appreveal {
+    animation: expand .9s ease forwards;
+    transition: all .9s ease;
+    background-color: #fff;
+}
+
 body {
     font-family: 'Open Sans', 'Poppins', 'Raleway' ;
     font-weight: 400;
@@ -19,6 +36,16 @@ body {
     overflow-x: hidden;
     font-size: 15px;
     margin: 0%;
+    
+}
+
+@keyframes expand {
+  0% {
+    transform: translate3d(1400px,1400px,0);
+  }
+  100% {
+    transform: translate3d(0,0,0);
+  }
 }
 
 p {

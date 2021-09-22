@@ -11,7 +11,7 @@ import Footer from "./Footer"
 const Homepage = () => {
     
     return (
-        <div>
+        <div  className="Appreveal">
             <Navbar />
             <Header />
             <Events  />
