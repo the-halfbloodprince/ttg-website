@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './components/About';
 import ScrollTop from './components/ScrollTop';
 import Gallery from './components/Gallery';
-import {useState,useEffect} from "react"
+import {useState,useEffect} from "react";
+import Eventdisplay from './components/Eventdisplay';
 
 
 
@@ -34,6 +35,9 @@ function App() {
         </Route>
         <Route exact path="/gallery">
           <Gallery />
+        </Route>
+        <Route exact path="/events/:id">
+          <Eventdisplay/>
         </Route>
       </Switch>
       <ScrollTop />

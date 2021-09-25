@@ -41,12 +41,12 @@ const Navbara = () => {
                                             data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">
-                                            <li className="nav-item"><a href="about-us.html" style={ {textDecoration:'none'}}>Annual Research Meet</a></li>
-                                            <li className="nav-item"><a href="signin.html" style={ {textDecoration:'none'}}>IPR Workshop</a></li>
-                                            <li className="nav-item"><a href="signup.html" style={ {textDecoration:'none'}}>TedXIITKharagpur</a></li>
-                                            <li className="nav-item"><a href="reset-password.html" style={ {textDecoration:'none'}}>TechTalks</a></li>
-                                            <li className="nav-item"><a href="mail-success.html" style={ {textDecoration:'none'}}>INDAC</a></li>
-                                            <li className="nav-item"><a href="404.html" style={ {textDecoration:'none'}}>bjnmhu jhho</a></li>
+                                        <li className="nav-item"><Link to="/events/1" style={ {textDecoration:'none'}}>Annual Research Meet</Link></li>
+                                        <li className="nav-item"><Link to="/events/2" style={ {textDecoration:'none'}}>IPR Workshop</Link></li>
+                                        <li className="nav-item"><Link to="/events/3" style={ {textDecoration:'none'}}>TedXIITKharagpur</Link></li>
+                                        <li className="nav-item"><Link to="/events/4" style={ {textDecoration:'none'}}>TechTalks</Link></li>
+                                        <li className="nav-item"><Link to="/events/5" style={ {textDecoration:'none'}}>INDAC</Link></li>
+                                        <li className="nav-item"><Link to="/events/6" style={ {textDecoration:'none'}}>bjnmhu jhho</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
