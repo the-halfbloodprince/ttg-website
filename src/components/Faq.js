@@ -28,7 +28,7 @@ const Faq = () => {
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-12">
                     <div className="accordion" id="accordionExample">
-                        <div className="accordion-item" data-aos="fade-right" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading1">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" >
@@ -46,7 +46,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item" data-aos="fade-right" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading2">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
@@ -65,7 +65,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item" data-aos="fade-right" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading3">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
@@ -85,7 +85,7 @@ const Faq = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12 xs-margin">
                     <div className="accordion" id="accordionExample2">
-                        <div className="accordion-item" data-aos="fade-left" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading11">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
@@ -103,7 +103,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item" data-aos="fade-left" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading22">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
@@ -122,7 +122,7 @@ const Faq = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="accordion-item" data-aos="fade-left" data-aos-delay="100" data-aos-offset="100">
+                        <div className="accordion-item" data-aos="fade-up" data-aos-delay="100" data-aos-offset="100">
                             <h2 className="accordion-header" id="heading33">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapse33" aria-expanded="false" aria-controls="collapse33">

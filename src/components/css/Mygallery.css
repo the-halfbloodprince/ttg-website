@@ -28,8 +28,7 @@ overflow:hidden;
 	border-bottom: 1px solid #eee;
 }
 .container {
-	margin-left:20px;
-	margin-right:20px;
+	margin: 0 auto;
 	
 	text-align: center;
 }
