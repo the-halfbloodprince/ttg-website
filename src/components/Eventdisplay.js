@@ -5,7 +5,7 @@ import Navbare from './Navbare'
 import Eventhead from './EventHead'
 import { auto } from '@popperjs/core'
 import Footer from './Footer'
-
+import '../style/main.css'
 
 
 const Eventdisplay = () => {

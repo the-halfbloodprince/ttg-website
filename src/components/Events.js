@@ -1,6 +1,7 @@
 import "aos/dist/aos.css";
 import {useEffect} from "react";
 import Aos from "aos"
+
 const Events = () => {
     useEffect(()=>{
         Aos.init({duration:1500});

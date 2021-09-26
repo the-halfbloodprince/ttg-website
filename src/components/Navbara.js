@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
-import './style/main.css'
-import stickiness from './utilitiesJS/stickiness'
+import '../style/main.css'
+import stickiness from '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom';
 
 
