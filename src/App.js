@@ -7,6 +7,7 @@ import ScrollTop from './components/ScrollTop';
 import Gallery from './components/Gallery';
 import {useState,useEffect} from "react"
 import Preloader from './components/Preloader';
+import Eventdisplay from './components/Eventdisplay';
 
 
 
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route exact path="/gallery">
           <Gallery />
+        </Route>
+        <Route exact path="/events/:id">
+          <Eventdisplay />
         </Route>
       </Switch>
       <ScrollTop />

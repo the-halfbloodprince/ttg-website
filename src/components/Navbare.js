@@ -1,10 +1,10 @@
 import {useEffect} from 'react'
 import './css/main.css'
 import stickiness from './js/stickiness'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 
-const Navbar = () => {
+const Navbare = () => {
 
     useEffect(() => stickiness())
 
@@ -31,14 +31,14 @@ const Navbar = () => {
                             <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" className="navbar-nav ms-auto">
                                     <li className="nav-item">
-                                        <Link to="/" className="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</Link>
+                                        <Link to="/" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</Link>
                                     </li>
                                     <li className="nav-item">
                                             <Link to="/about" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/" className="dd-menu collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
+                                        <a href="/" className="dd-menu collapsed active" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">
                                             <li className="nav-item"><Link to="/events/1" style={ {textDecoration:'none'}}>Annual Research Meet</Link></li>
@@ -70,4 +70,4 @@ const Navbar = () => {
      );
 }
  
-export default Navbar;
+export default Navbare;

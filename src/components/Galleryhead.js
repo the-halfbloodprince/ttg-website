@@ -19,9 +19,9 @@ const Galleryhead = () => {
                     <div className="breadcrumbs-content mt-5" data-aos="fade-up" data-aos-delay="100">
                         <h1 className="page-title">Gallery</h1>
                         <ul className="breadcrumb-nav mt-5">
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/">HOME</Link></li>
                             <li className="fa fa-chevron-right"></li>
-                            <li>About Us</li>
+                            <li>GALLERY</li>
                         </ul>
                     </div>
                 </div>

@@ -1043,7 +1043,8 @@ ol {
 .breadcrumbs .breadcrumb-nav li,
 .breadcrumbs .breadcrumb-nav li a {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Raleway';
     font-weight: 500
 }
 
@@ -5737,4 +5738,98 @@ svg {
         stroke-dashoffset: 35%;
         stroke-dasharray: 0 87.5%;
     }
+}
+
+.evhead {
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 800;
+    
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.btne {
+	border: none;
+	font-style: 'Poppins';
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 40px;
+	display: inline-block;
+	margin: 20px 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btne:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btne:before {
+	font-style: 'Poppins';
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+.btne-6 {
+	color: #fff;
+	background: #3e80ff;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btne-6:active {
+	top: 2px;
+}
+
+.btne-6e {
+	border: 2px dashed #3e80ff;
+	border-radius: 15px;
+}
+
+.btne-6e:hover {
+	background: transparent;
+	color: #3e80ff;
+    font-style: 'Poppins';
+}
+
+.evhead {
+    font-size: 54px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    line-height: 42px;
+    padding-left: 60px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: bolder;
+    color: #24126a;
+    font-family: 'Raleway';
+}
+
+.evcontent {
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 32px;
+    padding-left: 60px;
 }
