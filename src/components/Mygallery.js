@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './css/Mygallery.css';
+import './style/Mygallery.css';
 import images from './data';
 import { SRLWrapper } from 'simple-react-lightbox';
 import SimpleReactLightbox from 'simple-react-lightbox';

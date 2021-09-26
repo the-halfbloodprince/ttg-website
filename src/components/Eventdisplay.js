@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom"
 import Navbare from './Navbare'
 import Eventhead from './EventHead'
 import { auto } from '@popperjs/core'
+import Footer from './Footer'
 
 
 
@@ -35,6 +36,8 @@ const Eventdisplay = () => {
 
             {data && <div className="evhead">{data[0].heading}</div>}
             {data && <div className="evcontent">{data[0].content}</div>}
+
+            <Footer />
 
         </div>
 

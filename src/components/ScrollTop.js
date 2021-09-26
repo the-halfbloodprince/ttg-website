@@ -1,5 +1,5 @@
-import './css/main.css'
-import './js/scrollToTop'
+import './style/main.css'
+import './utilitiesJS/scrollToTop'
 
 const ScrollTop = () => {
 

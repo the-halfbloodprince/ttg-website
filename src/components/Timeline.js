@@ -1,4 +1,4 @@
-import './css/main.css';
+import './style/main.css';
 import TinySlider from './TinySlider';
 import Aos from "aos"
 import { useEffect } from "react";
@@ -39,7 +39,7 @@ const Timeline = () => {
     // });
 
     return (
-        <section className="road-map section">
+        <section className="road-map section" style={{backgroundImage:"url(" + "/images/road-map/bg.png" + ")"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">

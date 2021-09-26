@@ -929,7 +929,6 @@ ol {
     z-index: 2;
     text-align: left;
     background-color: #24126a;
-    background-image: url(../images/bread-bg/banner-bg.svg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -3086,7 +3085,6 @@ only screen and (min-width:1400px) {
 }
 
 .road-map {
-    background-image: url(../images/road-map/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4501,6 +4499,13 @@ only screen and (min-width:1400px) {
 
 .team .single-team .content .social li:last-child {
     margin-right: 0
+}
+
+@media only screen and (min-width:991px) and (max-width:1200px) {
+    .team .single-team .content .social li{
+        margin-right:15px;
+        padding-right: 15px;
+    }
 }
 
 .team .single-team:hover .social {
