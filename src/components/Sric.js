@@ -1,5 +1,4 @@
-import './css/main.css'
-import sricimg from './images/about/about-image.png'
+import './style/main.css'
 import Aos from "aos"
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -15,7 +14,7 @@ const Sric = () => {
             <div className="row align-items-center">
                 <div className="col-lg-6 col-12">
                     <div className="img " data-aos="zoom-in-up" data-aos-delay="200">
-                        <img src={sricimg} alt="sric" />
+                        <img src="/images/about/about-image.png" alt="sric" />
                     </div>
                 </div>
                 <div className="col-lg-6 col-12">

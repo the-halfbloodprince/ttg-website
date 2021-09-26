@@ -1,4 +1,4 @@
-import './css/main.css'
+import './style/main.css'
 
 const Map = () => {
     return ( <div class="map-section">
