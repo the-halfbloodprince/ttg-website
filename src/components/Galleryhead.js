@@ -1,5 +1,5 @@
-import './style/main.css'
-import './utilitiesJS/stickiness'
+import '../style/main.css'
+import '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom';
 import Aos from 'aos'
 import { useEffect } from 'react'

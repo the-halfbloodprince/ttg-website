@@ -1,6 +1,6 @@
-import './style/main.css';
+import '../style/main.css';
 import GLightbox from 'glightbox';
-import './style/gilghtbox.min.css';
+import '../style/gilghtbox.min.css';
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 

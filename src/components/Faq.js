@@ -1,4 +1,4 @@
-import './style/main.css';
+import '../style/main.css';
 import 'bootstrap';
 import "aos/dist/aos.css";
 import {useEffect} from "react";

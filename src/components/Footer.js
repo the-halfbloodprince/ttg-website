@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './style/main.css'
+import '../style/main.css'
 import Map from './Map'
 import Aos from "aos"
 import { useEffect } from "react"
