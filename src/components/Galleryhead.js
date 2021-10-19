@@ -20,7 +20,7 @@ const Galleryhead = () => {
                         <h1 className="page-title">Gallery</h1>
                         <ul className="breadcrumb-nav mt-5">
                             <li><Link to="/">HOME</Link></li>
-                            <li className="fa fa-chevron-right"></li>
+                            <li className="fa fa-chevron-right">{'>'}</li>
                             <li>GALLERY</li>
                         </ul>
                     </div>

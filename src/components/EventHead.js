@@ -20,7 +20,7 @@ const Eventhead = () => {
                         <h1 className="page-title">Events</h1>
                         <ul className="breadcrumb-nav mt-5">
                             <li><Link to="/">HOME</Link></li>
-                            <li className="fa fa-chevron-right"></li>
+                            <li className="fa fa-chevron-right">{'>'}</li>
                             <li>EVENTS</li>
                         </ul>
                     </div>

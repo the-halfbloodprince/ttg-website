@@ -20,7 +20,7 @@ const Abouthead = () => {
                         <h1 className="page-title">About Us</h1>
                         <ul className="breadcrumb-nav mt-5">
                             <li><Link to="/">HOME</Link></li>
-                            <li className="fa fa-chevron-right"></li>
+                            <li className="fa fa-angle-right">{'>'}</li>
                             <li>ABOUT US</li>
                         </ul>
                     </div>
