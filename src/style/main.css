@@ -1021,7 +1021,7 @@ ol {
 
 .breadcrumbs .breadcrumb-nav li:after {
     content: "";
-    font-family: lineIcons;
+    font-family: "FontAwesome";
     font-size: 11px;
     position: absolute;
     top: 3px;
@@ -1927,8 +1927,8 @@ ol {
 }
 
 .navbar-nav .nav-item a.dd-menu::after {
-    content: "\ea5e";
-    font: normal normal normal 1em/1 "LineIcons";
+    content: "\f107";
+    font: normal normal normal 1em/1 "Fontawesome";
     position: absolute;
     right: 17px;
     font-size: 10px;
@@ -5045,8 +5045,8 @@ only screen and (min-width:1400px) {
 }
 
 .accordion-button:not(.collapsed) i::before {
-    content: "\eb2e";
-    font-family: lineIcons
+    content: "\f068";
+    font-family: "FontAwesome"
 }
 
 .accordion-button::after {
