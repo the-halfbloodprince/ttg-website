@@ -1,5 +1,5 @@
-import './css/main.css'
-import './js/stickiness'
+import '../style/main.css'
+import '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom'
 import Aos from 'aos'
 import { useEffect } from "react";
@@ -12,7 +12,7 @@ const Abouthead = () => {
         },[]);
     
     return (
-        <div className="breadcrumbs">
+        <div className="breadcrumbs" style={{backgroundImage:"url(" + "/images/bread-bg/banner-bg.svg" + ")"}}>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6 offset-lg-3 col-md-12 col-12">
@@ -20,7 +20,7 @@ const Abouthead = () => {
                         <h1 className="page-title">About Us</h1>
                         <ul className="breadcrumb-nav mt-5">
                             <li><Link to="/">HOME</Link></li>
-                            <li className="fa fa-chevron-right"></li>
+                            <li className="fa fa-angle-right">{'>'}</li>
                             <li>ABOUT US</li>
                         </ul>
                     </div>

@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
-import './css/main.css'
-import stickiness from './js/stickiness'
+import '../style/main.css'
+import stickiness from '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom';
 
 
@@ -52,12 +52,12 @@ const Navbare = () => {
                                         <Link to="/gallery" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Gallery</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Contact</a>
+                                        <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>SRIC</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>TTG-Blogs</a>
                             </div>
                         </nav>
 

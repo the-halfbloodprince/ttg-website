@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import './css/main.css'
-import Shape2 from './images/video/shape2.svg'
+import '../style/main.css'
 import Map from './Map'
 import Aos from "aos"
 import { useEffect } from "react"
@@ -22,7 +21,7 @@ const Footer = () => {
                     <div className="col-12">
                         <div className="inner-content-head " data-aos="zoom-in-up" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
                             <div className="inner-content" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
-                                <img className="shape2" src={Shape2} alt="#" />
+                                <img className="shape2" src="/images/shapes/shape2.svg" alt="#" />
                                 <div className="footer-cont">
                                     <div className="foot-left">
                                         <div className="foot-logo">

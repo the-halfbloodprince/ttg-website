@@ -49,7 +49,8 @@ const Homepage = () => {
 
     return (
         <div>
-            <div className="main-doc">
+        
+            <div id="section10" className="main-doc">
                 <Navbar className="main-nav" />
                 <Header />
                 <Events />

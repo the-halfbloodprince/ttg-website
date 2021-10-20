@@ -7,7 +7,7 @@ import Footer from "./Footer"
 
 const About = () => {
     return ( 
-        <div>
+        <div id="section10">
             <Navbara />
             <Abouthead />
             <Sric />

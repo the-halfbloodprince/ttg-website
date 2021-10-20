@@ -1,10 +1,10 @@
-import './css/main.css'
-import './js/scrollToTop'
+import '../style/main.css'
+import '../utilitiesJS/scrollToTop'
 
 const ScrollTop = () => {
 
     return (
-        <a href="/" className="scroll-top" style={{textDecoration:'none'}} >
+        <a href="#section10" className="scroll-top" style={{textDecoration:'none'}} >
         <i className="fa fa-chevron-up"></i>
     </a>
      );

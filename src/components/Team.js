@@ -1,8 +1,4 @@
-import './css/main.css'
-import team1 from './images/team/team1.jpg'
-import team2 from './images/team/team2.jpg'
-import team3 from './images/team/team3.jpg'
-import team4 from './images/team/team4.jpg'
+import '../style/main.css'
 import Aos from "aos"
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -35,7 +31,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team4} alt="team" />
+                            <img src="/images/team/manish.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Manish Kumar Das
@@ -54,7 +50,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team1} alt="team" />
+                            <img src="/images/team/aditi.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Aditi Mourya
@@ -73,7 +69,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team2} alt="team" />
+                            <img src="/images/team/kk.png" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Krishnakant Rawat
@@ -92,7 +88,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team3} alt="team" />
+                            <img src="/images/team/sagar.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Sagar Varade
@@ -114,7 +110,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team4} alt="team" />
+                            <img src="/images/team/aman.jpeg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Aman Mishra
@@ -133,7 +129,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team1} alt="team" />
+                            <img src="/images/team/shivani.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Shivani Vasam
@@ -152,7 +148,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team1} alt="team" />
+                            <img src="/images/team/tulsi.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Tulsi Bhimani
@@ -171,7 +167,7 @@ const Team = () => {
 
                     <div className="single-team">
                         <div className="team-image">
-                            <img src={team1} alt="team" />
+                            <img src="/images/team/vedanti.jpg" alt="team" />
                         </div>
                         <div className="content">
                             <h4>Vedanti Bhongade

@@ -929,7 +929,6 @@ ol {
     z-index: 2;
     text-align: left;
     background-color: #24126a;
-    background-image: url(../images/bread-bg/banner-bg.svg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -1022,7 +1021,7 @@ ol {
 
 .breadcrumbs .breadcrumb-nav li:after {
     content: "";
-    font-family: lineIcons;
+    font-family: "FontAwesome";
     font-size: 11px;
     position: absolute;
     top: 3px;
@@ -3086,7 +3085,6 @@ only screen and (min-width:1400px) {
 }
 
 .road-map {
-    background-image: url(../images/road-map/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -4415,6 +4413,10 @@ only screen and (min-width:1400px) {
     margin-bottom: 50px
 }
 
+.team-image{
+    background-size: contain;
+}
+
 @media only screen and (min-width:768px) and (max-width:991px),
 (max-width:767px) {
     .team .section-title {
@@ -4501,6 +4503,13 @@ only screen and (min-width:1400px) {
 
 .team .single-team .content .social li:last-child {
     margin-right: 0
+}
+
+@media only screen and (min-width:991px) and (max-width:1200px) {
+    .team .single-team .content .social li{
+        margin-right:15px;
+        padding-right: 15px;
+    }
 }
 
 .team .single-team:hover .social {
@@ -5041,7 +5050,7 @@ only screen and (min-width:1400px) {
 
 .accordion-button:not(.collapsed) i::before {
     content: "\f068";
-    font-family: Fontawesome
+    font-family: "FontAwesome"
 }
 
 .accordion-button::after {
@@ -5828,6 +5837,7 @@ svg {
     font-family: 'Poppins';
     font-weight: 500;
     margin-bottom: 20px;
-    line-height: 32px;
+    line-height: 40px;
     padding-left: 60px;
+    font-size: 20px;
 }

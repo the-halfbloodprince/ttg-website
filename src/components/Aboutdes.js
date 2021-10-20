@@ -1,6 +1,4 @@
-import './css/main.css';
-import Shape1 from './images/video/shape1.svg';
-import Shape2 from './images/video/shape2.svg';
+import '../style/main.css'
 import Aos from "aos"
 import { useEffect } from "react";
 import "aos/dist/aos.css";
@@ -21,8 +19,8 @@ const Aboutdes = () => {
                     <div className="col-12">
                         <div className="inner-content-head">
                             <div className="inner-content">
-                                <img className="shape1" src={Shape1} alt="#" />
-                                <img className="shape2" src={Shape2} alt="#" />
+                                <img className="shape1" src="/images/shapes/shape1.svg" alt="#" />
+                                <img className="shape2" src="/images/shapes/shape2.svg" alt="#" />
                                 <div className="section-title">
                                     <span data-aos="zoom-in-up" data-aos-delay="100">About Us</span>
                                     <h2 data-aos="zoom-in-up" data-aos-delay="200">Technology Transfer Group</h2>
