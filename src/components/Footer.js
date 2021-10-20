@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import './css/main.css'
-import Shape2 from './images/video/shape2.svg'
+import '../style/main.css'
 import Map from './Map'
 import Aos from "aos"
 import { useEffect } from "react"
@@ -22,7 +21,7 @@ const Footer = () => {
                     <div className="col-12">
                         <div className="inner-content-head " data-aos="zoom-in-up" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
                             <div className="inner-content" style={{ marginBottom: "10px", paddingBottom: "15px" }}>
-                                <img className="shape2" src={Shape2} alt="#" />
+                                <img className="shape2" src="/images/shapes/shape2.svg" alt="#" />
                                 <div className="footer-cont">
                                     <div className="foot-left">
                                         <div className="foot-logo">
@@ -36,9 +35,9 @@ const Footer = () => {
                                                 Follow Us On :
                                             </div>
                                             <div className="foot-social-icons">
-                                                <a href="https://www.facebook.com/TTG.SRIC" target="_blank"><li className="ta-fb fa fa-facebook"></li></a>
-                                                <a href="ttgiitkharagpur@gmail.com" target="_blank"><li className="ta-ma fa fa-envelope"></li></a>
-                                                <a href="https://www.linkedin.com/company/technology-transfer-group" target="_blank"><li className="ta-li fa fa-linkedin"></li></a>
+                                                <a rel="noreferrer" href="https://www.facebook.com/TTG.SRIC" target="_blank"><li className="ta-fb fa fa-facebook"></li></a>
+                                                <a rel="noreferrer" href="ttgiitkharagpur@gmail.com" target="_blank"><li className="ta-ma fa fa-envelope"></li></a>
+                                                <a rel="noreferrer" href="https://www.linkedin.com/company/technology-transfer-group" target="_blank"><li className="ta-li fa fa-linkedin"></li></a>
                                             </div>
                                         </div>
                                     </div>
@@ -50,15 +49,15 @@ const Footer = () => {
                                     </div>
                                     <div className="foot-center-ii">
                                         <div className="foot-center-ii-h">Links</div>
-                                        <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" className="foot-center-ii-page">SRIC</a>
-                                        <a href="https://www.ted.com/" target="_blank" className="foot-center-ii-page">TED</a>
-                                        <a href="http://tedxiitkharagpur.com/" target="_blank" className="foot-center-ii-page">TEDx</a>
+                                        <a rel="noreferrer" href="http://www.sric.iitkgp.ac.in/web/" target="_blank" className="foot-center-ii-page">SRIC</a>
+                                        <a rel="noreferrer" href="https://www.ted.com/" target="_blank" className="foot-center-ii-page">TED</a>
+                                        <a rel="noreferrer" href="http://tedxiitkharagpur.com/" target="_blank" className="foot-center-ii-page">TEDx</a>
                                     </div>
                                     <div className="footer-right">
                                         <Map />
                                     </div>
                                 </div>
-                                <div className="foot-cr">Copyright @2021 <a href="/">Technology Transfer Group</a></div>
+                                <div className="foot-cr">Copyright @2021 <a rel="noreferrer" href="/">Technology Transfer Group</a></div>
                             </div>
                         </div>
                     </div>

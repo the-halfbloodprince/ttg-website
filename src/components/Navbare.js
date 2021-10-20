@@ -4,7 +4,7 @@ import stickiness from '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom';
 
 
-const Navbara = () => {
+const Navbare = () => {
 
     useEffect(() => stickiness())
 
@@ -34,10 +34,10 @@ const Navbara = () => {
                                         <Link to="/" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                            <Link to="/about" className="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</Link>
+                                            <Link to="/about" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/" className="dd-menu collapsed" data-bs-toggle="collapse"
+                                        <a href="/" className="dd-menu collapsed active" data-bs-toggle="collapse"
                                             data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">
@@ -70,4 +70,4 @@ const Navbara = () => {
      );
 }
  
-export default Navbara;
+export default Navbare;

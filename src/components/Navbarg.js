@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
-import './css/main.css'
-import stickiness from './js/stickiness'
+import '../style/main.css'
+import stickiness from '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom';
 
 
@@ -21,7 +21,7 @@ const Navbarg = () => {
                             <Link className="navbar-brand" to="/">
                                 <img src="/images/logo/ttg_log_white.png" className="logo_top" alt="logo"/>
                             </Link>
-                            <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                            <button className="navbar-toggler mobile-menu-btn" type="button"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="toggler-icon"></span>
@@ -45,20 +45,19 @@ const Navbarg = () => {
                                             <li className="nav-item"><Link to="/events/2" style={ {textDecoration:'none'}}>IPR Workshop</Link></li>
                                             <li className="nav-item"><Link to="/events/3" style={ {textDecoration:'none'}}>TedXIITKharagpur</Link></li>
                                             <li className="nav-item"><Link to="/events/4" style={ {textDecoration:'none'}}>TechTalks</Link></li>
-                                            <li className="nav-item"><Link to="/events/5" style={ {textDecoration:'none'}}>INDAC</Link></li>
-                                            <li className="nav-item"><Link to="/events/6" style={ {textDecoration:'none'}}>bjnmhu jhho</Link></li>
+                                            <li className="nav-item"><Link to="/events/6" style={ {textDecoration:'none'}}>INDAC</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/gallery" lassName="active" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Gallery</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Contact</a>
+                                        <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>SRIC</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>TTG-Blogs</a>
                             </div>
                         </nav>
 

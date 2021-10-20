@@ -1,4 +1,4 @@
-import './css/main.css';
+import '../style/main.css';
 import TinySlider from './TinySlider';
 import Aos from "aos"
 import { useEffect } from "react";
@@ -39,7 +39,7 @@ const Timeline = () => {
     // });
 
     return (
-        <section className="road-map section">
+        <section className="road-map section" style={{backgroundImage:"url(" + "/images/road-map/bg.png" + ")"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -59,8 +59,8 @@ const Timeline = () => {
 
                                     <div className="single-map down">
                                         <span className="arrow"></span>
-                                        <h3>Sept 10,2021
-                                            <span>Annual research Meet</span>
+                                        <h3>First Week of November
+                                            <span>Tech Talks</span>
                                         </h3>
                                     </div>
 
@@ -69,7 +69,7 @@ const Timeline = () => {
 
                                     <div className="single-map">
                                         <span className="arrow"></span>
-                                        <h3>Oct 15,2021
+                                        <h3>Weekends of December
                                             <span>IPR Workshop</span>
                                         </h3>
                                     </div>
@@ -79,8 +79,8 @@ const Timeline = () => {
 
                                     <div className="single-map down">
                                         <span className="arrow"></span>
-                                        <h3>Jan 05,2022
-                                            <span>TedXIITKharagpur</span>
+                                        <h3>First Week of February
+                                            <span>TED<sr>x</sr>IITKharagpur</span>
                                         </h3>
                                     </div>
 
@@ -89,8 +89,8 @@ const Timeline = () => {
 
                                     <div className="single-map">
                                         <span className="arrow"></span>
-                                        <h3>Feb 10,2022
-                                            <span>Lorem Ipsum</span>
+                                        <h3>Feb-March
+                                            <span>Annual Research Meet</span>
                                         </h3>
                                     </div>
 
@@ -99,13 +99,13 @@ const Timeline = () => {
 
                                     <div className="single-map down">
                                         <span className="arrow"></span>
-                                        <h3>Feb 25,2022
-                                            <span>Lorem Ipsum</span>
+                                        <h3>No specific
+                                            <span>INDAC</span>
                                         </h3>
                                     </div>
 
                                 </div>
-                                <div className="col-lg-2 col-md-3 col-12 p-0">
+                                {/* <div className="col-lg-2 col-md-3 col-12 p-0">
 
                                     <div className="single-map">
                                         <span className="arrow"></span>
@@ -114,7 +114,7 @@ const Timeline = () => {
                                         </h3>
                                     </div>
 
-                                </div>
+                                </div> */}
 
 
                             </div>

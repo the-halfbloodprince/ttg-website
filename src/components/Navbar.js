@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
-import './css/main.css'
-import stickiness from './js/stickiness'
+import '../style/main.css'
+import stickiness from '../utilitiesJS/stickiness'
 import { Link } from 'react-router-dom'
 
 
@@ -37,28 +37,27 @@ const Navbar = () => {
                                             <Link to="/about" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>About</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="/" className="dd-menu collapsed"  data-bs-toggle="collapse"
-                                            data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
+                                        <a href="/" className="dd-menu collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                             aria-expanded="false" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Events</a>
                                         <ul className="sub-menu collapse" id="submenu-1-1">
-                                        <li className="nav-item"><Link to="/events/1" style={ {textDecoration:'none'}}>Annual Research Meet</Link></li>
-                                        <li className="nav-item"><Link to="/events/2" style={ {textDecoration:'none'}}>IPR Workshop</Link></li>
-                                        <li className="nav-item"><Link to="/events/3" style={ {textDecoration:'none'}}>TedXIITKharagpur</Link></li>
-                                        <li className="nav-item"><Link to="/events/4" style={ {textDecoration:'none'}}>TechTalks</Link></li>
-                                        <li className="nav-item"><Link to="/events/5" style={ {textDecoration:'none'}}>INDAC</Link></li>
-                                        <li className="nav-item"><Link to="/events/6" style={ {textDecoration:'none'}}>bjnmhu jhho</Link></li>
+                                            <li className="nav-item"><Link to="/events/1" style={ {textDecoration:'none'}}>Annual Research Meet</Link></li>
+                                            <li className="nav-item"><Link to="/events/2" style={ {textDecoration:'none'}}>IPR Workshop</Link></li>
+                                            <li className="nav-item"><Link to="/events/3" style={ {textDecoration:'none'}}>TedXIITKharagpur</Link></li>
+                                            <li className="nav-item"><Link to="/events/4" style={ {textDecoration:'none'}}>TechTalks</Link></li>
+                                            <li className="nav-item"><Link to="/events/5" style={ {textDecoration:'none'}}>INDAC</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/gallery" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Gallery</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="contact.html" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>Contact</a>
+                                        <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" aria-label="Toggle navigation" style={ {textDecoration:'none'}}>SRIC</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="button">
-                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>SRIC</a>
+                                <a href="http://www.sric.iitkgp.ac.in/web/" target="_blank" rel="noreferrer" className="btn" style={ {textDecoration:'none'}}>TTG-Blogs</a>
                             </div>
                         </nav>
 
