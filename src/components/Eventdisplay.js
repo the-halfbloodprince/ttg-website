@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import datafile from './eventdata'
+import datafile from './Eventdata'
 import { useParams } from "react-router-dom"
 import Navbare from './Navbare'
 import Eventhead from './EventHead'
@@ -47,7 +47,7 @@ const Eventdisplay = () => {
 };
 const TagButton = ({ name, handlevent, eventActive }) => {
     return (
-        <button className={`event5 ${eventActive ? 'active' : null}`} className="btne btne-6 btne-6e" onClick={() => handlevent(name)}>
+        <button className={` ${eventActive ? 'btneactive' : null} btne btne-6 btne-6e`} onClick={() => handlevent(name)}>
             {name.toUpperCase()}
         </button>
     );

@@ -6,6 +6,8 @@ html {
     scroll-behavior: smooth
 }
 
+
+
 *::selection {
     background-color: #24126A;
     color: white;
@@ -5840,4 +5842,9 @@ svg {
     line-height: 40px;
     padding-left: 60px;
     font-size: 20px;
+}
+.btneactive{
+    background: transparent;
+	color: #3e80ff;
+    font-style: 'Poppins';
 }
