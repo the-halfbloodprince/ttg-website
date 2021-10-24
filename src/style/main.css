@@ -1928,7 +1928,7 @@ ol {
 
 .navbar-nav .nav-item a.dd-menu::after {
     content: "\f107";
-    font: normal normal normal 1em/1 "Fontawesome";
+    font: normal normal normal 2em/1 "Fontawesome";
     position: absolute;
     right: 17px;
     font-size: 10px;
