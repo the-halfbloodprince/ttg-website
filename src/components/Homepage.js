@@ -48,9 +48,9 @@ const Homepage = () => {
     }, [])
 
     return (
-        <div>
+        <div id="section10">
         
-            <div id="section10" className="main-doc">
+            <div  className="main-doc">
                 <Navbar className="main-nav" />
                 <Header />
                 <Events />
