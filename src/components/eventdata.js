@@ -13,7 +13,7 @@ const eventData = [
         imageName: 'tedx.jpg',
         event: "TEDxIITKharagpur",
         content:"TEDxIITKharagpur independently organized TED events (subject to certain rules and regulations). TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks videos combine to spark deep discussion and connection in a small group. Last year Alyssa Carson, Amit Ranjan Biswas, Debayan Saha, Nabila Jamshed, Siddhant Shah gave talks in an online Tedx event. ",
-        heading:"TEDxIITKharagpur" },
+        heading:"TEDx IIT Kharagpur" },
     { 
         imageName: 'techtalks.jpg',
         event: "TechTalks",
