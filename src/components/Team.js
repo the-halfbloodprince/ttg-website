@@ -19,10 +19,8 @@ const Team = () => {
                 <div className="col-12">
                     <div className="section-title">
                         <h3 data-aos="zoom-in-up" data-aos-delay="100" >Heads</h3>
-                        <h2 data-aos="zoom-in-up" data-aos-delay="200" >Meet Our Team</h2>
-                        <p data-aos="zoom-in-up" data-aos-delay="300" >Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Amet quae exercitationem in doloribus repellendus eius odio maxime quis totam magni
-                            debitis pariatur quod, expedita illo voluptas et enim qui officiis.</p>
+                        <h2 data-aos="zoom-in-up" data-aos-delay="200" >Meet the Heads</h2>
+                        {/* <p data-aos="zoom-in-up" data-aos-delay="300" >Here's the wonderful team of heads xD</p> */}
                     </div>
                 </div>
             </div>
@@ -35,7 +33,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Manish Kumar Das
-                                <span>Web</span>
+                                <span>Web Team Head</span>
                             </h4>
                             <ul className="social" style={{textAlign:"center"}}>
                                 <li><a href="https://www.facebook.com/iammkdmanish" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -54,7 +52,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Aditi Mourya
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/messages/t/100056926354845/" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -73,7 +71,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Krishnakant Rawat
-                                <span>Design</span>
+                                <span>Design and Media Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/krishnakant.rawat.587/" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -92,7 +90,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Sagar Varade
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/sagar.varade.3720" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -114,7 +112,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Aman Mishra
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/profile.php?id=100026014789211" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -133,7 +131,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Shivani Vasam
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/shivani.vasam.16" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -152,7 +150,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Tulsi Bhimani
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/tulsi.bhimani.9" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>
@@ -171,7 +169,7 @@ const Team = () => {
                         </div>
                         <div className="content">
                             <h4>Vedanti Bhongade
-                                <span>Core</span>
+                                <span>Core Team Head</span>
                             </h4>
                             <ul className="social">
                                 <li><a href="https://www.facebook.com/vedanti.bhongade.9" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a></li>

@@ -36,8 +36,8 @@ const Events = () => {
                             <div className="tumb">
                                 <img src="images/features/Rectangle 1.svg" className="event_cover" alt="" />
                             </div>
-                            <h4 className="text-title">TedXIITKharagpur</h4>
-                            <p>TEDxIITKharagpur independently organized TED events (subject to certain rules and regulations). TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.
+                            <h4 className="text-title">TEDx IITKharagpur</h4>
+                            <p>TEDx IITKharagpur independently organized TED events (subject to certain rules and regulations). TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.
                             </p>
                         </div>
                     </div>

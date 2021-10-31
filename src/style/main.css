@@ -2769,7 +2769,8 @@ only screen and (min-width:1400px) {
 
 .start-process .single-process {
     position: relative;
-    padding-left: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 40px
 }
 
@@ -2844,7 +2845,7 @@ only screen and (min-width:1400px) {
 }
 
 .intro-video-area .section-title {
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
     padding: 0 265px
 }
 
@@ -4415,8 +4416,8 @@ only screen and (min-width:1400px) {
     margin-bottom: 50px
 }
 
-.team-image{
-    background-size: contain;
+.team-image img {
+    object-fit: cover;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px),

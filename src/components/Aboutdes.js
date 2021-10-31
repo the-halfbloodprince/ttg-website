@@ -31,23 +31,23 @@ const Aboutdes = () => {
                                     <div class="row">
                                         <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
                                             <div class="single-process">
-                                                <span class="serial" >01</span>
+                                                {/* <span class="serial" >01</span> */}
                                                 <h3>Linking</h3>
                                                 <p>We act as a link between the industry and the academia to facilitate transfer of industry ready technologies and presenting IIT Kharagpur as a research consultant</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="300">
                                             <div class="single-process">
-                                                <span class="serial">02</span>
-                                                <h3>Patents</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos consectetur tidio.</p>
+                                                {/* <span class="serial">02</span> */}
+                                                <h3>Workshops</h3>
+                                                <p>We organize events that are aimed at educating and promoting research among the students of the institute.</p>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="500">
                                             <div class="single-process">
-                                                <span class="serial">03</span>
-                                                <h3>TedXIITKharagpur</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos consectetur tidio.</p>
+                                                {/* <span class="serial">03</span> */}
+                                                <h3>TEDx IITKharagpur</h3>
+                                                <p>TTG organizes TEDX IIT Kharagpur as a platform to share and discover ideas every year.</p>
                                             </div>
                                         </div>
                                     </div>

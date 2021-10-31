@@ -31,7 +31,7 @@ const Homepage = () => {
         openingTimeline.fromTo(
             '.main-doc',
             //duration
-            2,
+            1.5,
             //from
             {
                 y: '100vh',
@@ -41,7 +41,7 @@ const Homepage = () => {
             {
                 y: 0,
                 opacity: 1,
-                ease: GSAP.Power4.easeIn
+                ease: GSAP.Power2.easeInOut
             }
         )
 
@@ -55,8 +55,9 @@ const Homepage = () => {
                 <Header />
                 <Events />
                 <Video />
-                <Timeline />
-                <Faq />
+                {/* to be implemented later */}
+                {/* <Timeline /> */}    
+                <Faq /> 
                 <Footer />
             </div>
         </div>

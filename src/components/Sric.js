@@ -33,17 +33,17 @@ const Sric = () => {
                                 <div className="list-icon" >
                                     <i className="fa fa-check"></i>
                                 </div>
-                                <h4>Projects</h4>
-                                <p>Quis autem vel eum reprehenderit</p>
+                                <h4>Patents</h4>
+                                <p>File and manage patents.</p>
                             </div>
                             <div className="single-list" data-aos="zoom-in-up" data-aos-delay="300">
                                 <div className="list-icon" >
                                     <i className="fa fa-check"></i>
                                 </div>
                                 <h4>Research</h4>
-                                <p>Quis autem vel eum reprehenderit</p>
+                                <p>Promote research in the campus.</p>
                             </div>
-                            <div className="single-list" data-aos="zoom-in-up" data-aos-delay="400">
+                            {/* <div className="single-list" data-aos="zoom-in-up" data-aos-delay="400">
                                 <div className="list-icon" >
                                     <i className="fa fa-check"></i>
                                 </div>
@@ -56,7 +56,7 @@ const Sric = () => {
                                 </div>
                                 <h4>IPR</h4>
                                 <p>Quis autem vel eum reprehenderit</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

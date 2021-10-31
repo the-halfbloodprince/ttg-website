@@ -34,11 +34,8 @@ const Video = () => {
                             <img className="shape2" src="/images/shapes/shape2.svg" alt="#" />
                             <div className="section-title">
                                 <span data-aos="zoom-in-up"  data-aos-offset="140" data-aos-delay="100">Check this Out!</span>
-                                <h2 data-aos="zoom-in-up" data-aos-offset="140" data-aos-delay="200">IIT Kharagpur Research Park</h2>
-                                <p data-aos="zoom-in-up"  data-aos-offset="140" data-aos-delay="300">Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Consectetur corporis rerum necessitatibus, minima rem inventore
-                                    alias. Hic, quaerat eius aliquam ipsam asperiores, explicabo sit veritatis quis quae
-                                    ullam porro quo.</p>
+                                <h2 data-aos="zoom-in-up" data-aos-offset="140" data-aos-delay="200">TEDx IIT Kharagpur 2020</h2>
+                                <p data-aos="zoom-in-up"  data-aos-offset="140" data-aos-delay="300">TEDx IITKharagpur independently organized TED events (subject to certain rules and regulations). TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.</p>
                             </div>
                             <div className="intro-video-play">
                                 <div className="play-thumb " data-aos="fade-up" data-aos-offset="2"  data-aos-delay="100">

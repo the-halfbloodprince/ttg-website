@@ -45,9 +45,9 @@ const Timeline = () => {
                     <div className="col-12">
                         <div className="section-title">
                             <h2 data-aos="fade-up"  data-aos-offset="180" data-aos-delay="100">Our Timeline</h2>
-                            <p data-aos="fade-up"  data-aos-offset="180" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Magni, commodi ducimus? Repudiandae neque nam placeat quo facere quisquam, numquam
-                                quia totam, beatae obcaecati tempora aut enim odio earum expedita sint.</p>
+                            <p data-aos="fade-up"  data-aos-offset="180" data-aos-delay="200">
+                                TTG organizes a wide range of events ranging from the IPR workshop educating the students about various scientific skills and ethics, to TEDx IIT Kharagpur, one of the most awaited events at KGP where lots of inspiring minds come together to explore and share their experiences with each other.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -91,16 +91,6 @@ const Timeline = () => {
                                         <span className="arrow"></span>
                                         <h3>Feb-March
                                             <span>Annual Research Meet</span>
-                                        </h3>
-                                    </div>
-
-                                </div>
-                                <div className="col-lg-2 col-md-3 col-12 p-0">
-
-                                    <div className="single-map down">
-                                        <span className="arrow"></span>
-                                        <h3>No specific
-                                            <span>INDAC</span>
                                         </h3>
                                     </div>
 
