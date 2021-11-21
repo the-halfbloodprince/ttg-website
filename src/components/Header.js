@@ -35,10 +35,7 @@ const Header = () => {
                 </div>
                 <div className="col-lg-7 col-12">
                     <div className="hero-image">
-                        <img className="main-image" src="/images/hero/home2-bg.png" alt="#" />
-                        <img className="h2-move-1" src="/images/hero/h2-bit-l.png" alt="#" />
-                        <img className="h2-move-2" src="/images/hero/h2-bit-m.png" alt="#" />
-                        <img className="h2-move-3" src="/images/hero/h2-bit-s.png" alt="#" />
+                        <img className="main-image" src="/images/logo/ttg-3d-white-new.gif" alt="#" />
                     </div>
                 </div>
             </div>
