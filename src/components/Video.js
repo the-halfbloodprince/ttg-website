@@ -13,9 +13,9 @@ const Video = () => {
 
     useEffect(() => GLightbox())
     const glightbox = GLightbox({
-        'href': 'https://www.youtu.be/1uX6iXysFJo',
+        'href': '/images/features/video_intro.mp4',
         'type': 'video',
-        'source': 'youtube', //vimeo, youtube or local
+        'source': 'local', //vimeo, youtube or local
         'width': 900,
         'autoplayVideos': true,
     });
@@ -39,7 +39,7 @@ const Video = () => {
                             </div>
                             <div className="intro-video-play">
                                 <div className="play-thumb " data-aos="fade-up" data-aos-offset="2"  data-aos-delay="100">
-                                    <a href="https://www.youtu.be/1uX6iXysFJo" className="glightbox video"><i
+                                    <a href="/images/features/video_intro.mp4" className="glightbox video"><i
                                             className="fa fa-play"></i></a>
                                 </div>
                             </div>
