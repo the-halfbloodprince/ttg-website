@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
                 <div className="col-lg-7 col-12">
                     <div className="hero-image">
-                        <img className="main-image" src="/images/logo/ttg-3d-white-new.gif" alt="#" />
+                        <object className="main-image" type="image/svg+xml" data="/images/logo/ttg-3d-logo.svg" src="/images/logo/ttg-3d-logo.svg" alt="#" />
                     </div>
                 </div>
             </div>
