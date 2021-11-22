@@ -7,7 +7,7 @@ const eventData = [
     { 
         imageName: 'ipr.jpg',
         event: "IPR",
-        content:"ipr is a ",
+        content:"Intellectual Property Rights are now the main driver of industries and driver of the wealth of the many emerging startups and their depth of significance is unfathomable. Intellectual property is a line drawn around information, which asserts that despite having been set loose in the world - and having been created out of an individual 'srelationship with the world - that information retains some connection with its creator that allows thatperson some control over how it is replicated and used. The workshop will provide an ideal platform for all the M.Tech students, research scholars and research enthusiasts within the UG community of IIT Kharagpurto understand the importance of Intellectual Property Rights and can take forward his/her research and plan a roadmap ahead of time for patent filing. ",
         heading:"IPR Workshop" },
 	{ 
         imageName: 'tedx.jpg',
