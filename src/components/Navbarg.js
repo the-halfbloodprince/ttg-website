@@ -44,7 +44,6 @@ const Navbarg = () => {
                                          <li className="nav-item"><Link to="/events/2" style={ {textDecoration:'none'}}>IPR Workshop</Link></li>
                                          <li className="nav-item"><Link to="/events/3" style={ {textDecoration:'none'}}>TedXIITKharagpur</Link></li>
                                          <li className="nav-item"><Link to="/events/4" style={ {textDecoration:'none'}}>TechTalks</Link></li>
-                                         <li className="nav-item"><Link to="/events/5" style={ {textDecoration:'none'}}>INDAC</Link></li>
                                      </ul>
                                  </li>
                                  <li className="nav-item">
