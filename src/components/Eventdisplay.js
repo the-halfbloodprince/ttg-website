@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import datafile from './Eventdata'
+import datafile from './Eventd'
 import { useParams } from "react-router-dom"
 import Navbare from './Navbare'
 import Eventhead from './EventHead'

@@ -22,8 +22,8 @@ function Mygallery() {
 	useEffect(()=>{
         Aos.init({duration:1500 });
         },[]);
-    
-			
+   
+			/* <TagButton name="MEET" tagActive={tag === 'MEET' ? true : false} handleSetTag={setTag} /> */
 		
 	return (
         <SimpleReactLightbox>
@@ -31,8 +31,9 @@ function Mygallery() {
 			<div className="tags">
 				<TagButton name="all" tagActive={tag === 'all' ? true : false} handleSetTag={setTag} /> /
 				<TagButton name="TEDX" tagActive={tag === 'TEDX' ? true : false} handleSetTag={setTag} /> /
-				<TagButton name="IPR" tagActive={tag === 'IPR' ? true : false} handleSetTag={setTag} /> /
-				<TagButton name="MEET" tagActive={tag === 'MEET' ? true : false} handleSetTag={setTag} />
+				<TagButton name="IPR" tagActive={tag === 'IPR' ? true : false} handleSetTag={setTag} /> 
+				 
+				
 			</div>
 			<SRLWrapper  >
 				<div className="container" data-aos="zoom-in-up" data-aos-delay="100">
