@@ -6,7 +6,9 @@ html {
     scroll-behavior: smooth
 }
 
-
+img {
+    object-fit: cover;
+}
 
 *::selection {
     background-color: #24126A;
