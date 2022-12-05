@@ -18,7 +18,7 @@ const Header = () => {
             <div className="row align-items-center">
                 <div className="col-lg-5 col-md-12 col-12">
                     <div className="hero-content">
-                        <h4 data-aos="slide-up" data-aos-delay="100">under SRIC IIT Kharagpur</h4>
+                        <h4 data-aos="slide-up" data-aos-delay="100">SRIC, IIT Kharagpur</h4>
                         <h1  data-aos="slide-up" data-aos-delay="200" style={{fontFamily:'Raleway'}}>Technology
                             Transfer <br />Group 
                             <span>
